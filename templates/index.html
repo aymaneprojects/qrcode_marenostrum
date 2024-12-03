@@ -43,7 +43,7 @@
             border: none;
         }
         .btn-blue-black:hover {
-            background-color: #002244;
+            background-color: #227175;
         }
         .qr-code img {
             max-width: 100%;
@@ -56,7 +56,7 @@
 <body>
     <div class="container">
         <!-- Logo -->
-        <img src="https://via.placeholder.com/100" alt="Logo" class="logo">
+        <img src="{{ url_for('static', filename='ressources/logo.png') }}" alt="Logo" height="50">
 
         <!-- Title and Subtitle -->
         <div class="title">QR Code Generator</div>
