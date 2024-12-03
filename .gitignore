@@ -1,0 +1,17 @@
+# Ignorer le dossier __pycache__ et les fichiers compilés Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Fichiers système (par exemple, macOS)
+.DS_Store
+
+# Images générées ou inutiles dans static/
+static/ressources/qr_code.png
+
+# Fichiers spécifiques à l'environnement virtuel
+env/
+venv/
+
+# Configurations spécifiques
+*.log
